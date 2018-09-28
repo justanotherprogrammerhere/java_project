@@ -3,8 +3,8 @@ git status
 
 
 CRAEATE BRANCH
-git checkout -b sla_kva
-git checkout sla_kva 
+git checkout -b test_kva
+git checkout test_kva 
 checkout existing branbch to the folder
 
 
@@ -24,7 +24,7 @@ git checkout iss53
 git checkout -b iss53
 
 To push changes to the branch
-git push -u origin SLA-46-MSLA
+git push -u origin TEST-46-MTEST
 
 
 TO REMOVE CHANGES AND THEN SAVE
@@ -39,7 +39,7 @@ pip install requests
 
 
 
-git diff master sla_kva
+git diff master test_kva
 
 Get the latest code from master to local branch
 git pull origin master --rebase
@@ -50,7 +50,7 @@ git commit --append
 if already commited them do squash of commits by 
 git rebase -i HEAD~2    ( git rebase -i HEAD~n)
 squash old and use f option for second
-git push origin sla_kva -f
+git push origin test_kva -f
 
 ------------------------
 git rebase -i HEAD~n
@@ -70,7 +70,7 @@ $ git branch -D branch_name
 
 GIT CHERRY PICK AND MERGE SQUASH
 git rebase -i HEAD
-git push origin MANUAL_SLA -f
+git push origin MANUAL_TEST -f
 
 
 
@@ -82,7 +82,7 @@ git clean -f
 
 GIT CHECKOUT TO DO BEFORE PUSH
 git pull --rebase origin master
-git pull --rebase origin sla_v2 --> test branch
+git pull --rebase origin test_v2 --> test branch
 git rebase -i master  ---> interactive
 
 
