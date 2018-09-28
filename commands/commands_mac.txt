@@ -1,2 +1,11 @@
 gradle clean build
 
+gradle bootRun --debug-jvm
+attach remote in debug configuration
+
+
+
+
+
+
+

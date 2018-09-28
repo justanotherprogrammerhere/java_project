@@ -1,0 +1,90 @@
+GET LIST OF CHANGES 
+git status
+
+
+CRAEATE BRANCH
+git checkout -b sla_kva
+git checkout sla_kva 
+checkout existing branbch to the folder
+
+
+FILES FOR TFHE CHANGES
+git add ../health-server
+
+TO HGET NEW CODE FROM MASTER
+ git pull origin master
+
+
+TO COMMIT 
+git commit
+
+TO SWITCH BRANCH
+git branch iss53
+git checkout iss53
+git checkout -b iss53
+
+To push changes to the branch
+git push -u origin SLA-46-MSLA
+
+
+TO REMOVE CHANGES AND THEN SAVE
+git stash
+
+TO ADD THE CHANGES
+git stash apply
+
+sudo easy_install pip
+pip install requests
+
+
+
+
+git diff master sla_kva
+
+Get the latest code from master to local branch
+git pull origin master --rebase
+
+To commit on to same commit
+git commit --append
+
+if already commited them do squash of commits by 
+git rebase -i HEAD~2    ( git rebase -i HEAD~n)
+squash old and use f option for second
+git push origin sla_kva -f
+
+------------------------
+git rebase -i HEAD~n
+p 01d1124 Message....
+s 6340aaa Message....
+s ebfd367 Message....
+s 30e0ccb Message....
+------------------------
+
+
+
+GIT DELETE BRANCH
+$ git branch -d branch_name
+$ git branch -D branch_name
+
+
+
+GIT CHERRY PICK AND MERGE SQUASH
+git rebase -i HEAD
+git push origin MANUAL_SLA -f
+
+
+
+GIT REVERT TO ORIGIN
+
+git fetch origin
+git reset --hard origin/master
+git clean -f
+
+GIT CHECKOUT TO DO BEFORE PUSH
+git pull --rebase origin master
+git pull --rebase origin sla_v2 --> test branch
+git rebase -i master  ---> interactive
+
+
+
+

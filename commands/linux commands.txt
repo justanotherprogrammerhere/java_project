@@ -1,0 +1,52 @@
+git clone https://github.com/justanotherprogrammerhere/java_project.git
+git checkout -b branch1
+git add *
+git commit -c "Initial commit" README.txt 
+git push --set-upstream origin branch1
+vi .gitignore
+git status
+history 150
+mvn spring-boot:run
+
+
+gradle BootRun
+
+FLUSH PRIVILEGES;
+mysql -u root -p
+mysql> grant all privileges on *.* to bill@localhost identified by 'pass' with grant option;
+CREATE USER 'myuser'@'localhost' IDENTIFIED BY 'mypass';
+CREATE USER 'myuser'@'%' IDENTIFIED BY 'mypass';
+GRANT ALL ON *.* TO 'myuser'@'localhost';
+GRANT ALL ON *.* TO 'myuser'@'%';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dpkg -l | grep mysql
+apt list --installed | grep mysql
+
+
+
+
